@@ -1,0 +1,10 @@
+git init (Inicializa el repositorio en la carpeta donde estamos ubicados).
+git config --local user.email "example@uca.edu.sv" y git config --local user.name "example" (Establecen el usario que estará realizando los cambios).
+git config --local --list y git config --global --list ("local list" sirve para desplegar la lista de los valores asignados con los comandos de arriba. "Global list" se debe de usar en la computadora personal para corroborar que el nombre y su email hayan sido ingresados correctamente).
+git add . (Agrega todos los archivos al repositorio).
+git commit -m "First commit" (Sirve para comentar los cambios que hemos hecho).
+git clone (Se usa para copiar un repositorio y trabajar con él en nuestra máquina).
+git push -u origin master (Lo usamos para guardar nuestros cambios en la nube y los agregamos a la rama principal).
+git pull (Se usa para actualizar nuestro repositorio con los últimos en la nube).
+git remote add origin "url del repositorio" (Añadimos el lugar en la nube, donde subiremos nuestro repositorio).
+git revert <commit> (Sirve para revertir un commit, usando su ID. Una vez hecho ésto, hay que hacer "push" para guardar los cambios).
